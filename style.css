@@ -1,5 +1,6 @@
 *{
 	font-family: Roboto, Helvetica;
+	
 }
 
 a{
@@ -7,22 +8,27 @@ a{
 	color: #E5E7EB;
 }
 
+.contenedorEncabezado, .sectorMedioDeLaPagina, .sectorCitaInspiracional, .sectorCallToAction, .pieDepagina{
+	padding-left: 10%;
+	padding-right: 10%;
+}
 
 .contenedorEncabezado, .pieDePagina{
 	background-color: #1F2937;
-	padding-left: 7em;
-	padding-right: 7em;
 }
+
 
 .logoYLinksDelEncabezado{
 	display: flex;
+	padding-bottom: 0;
+	height: 100px;
 }
 
 .logoEncabezado{
 	
 	font-size: 24px;
 	color: #F9FAF8;
-	padding: 2em 2em;
+	padding: 2em 0em;
 	border: 0;
 	margin:0;
 	
@@ -34,9 +40,9 @@ a{
 	flex: 1;
 	justify-content: flex-end;
 
-	padding: 2em 2em;
-	border: 0;
-	
+	padding: 2em 0em;
+	border: 0;	
+
 }
 
 .primerLinkEncabezado, .segundoLinkEncabezado, .tercerLinkEncabezado{
@@ -46,6 +52,10 @@ a{
 
 }
 
+.tercerLinkEncabezado{
+	margin-right: 0em;
+}
+
 .subtituloEncabezado, .primerLinkEncabezado, .segundoLinkEncabezado, .tercerLinkEncabezado{
 	font-size: 18px;
 	color: #E5E7EB;
@@ -53,9 +63,115 @@ a{
 
 .tituloSubtituloEImagenPrincipal{
 	display: flex;
-	padding: 2em 2em;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .tituloSubtituloYBoton{
 	display: flex;
 	flex-direction: column;
+	width: 40%;
+	align-items: ;
+	margin-right: 5em;
+}
+
+.tituloPrincipalEncabezado{
+	
+	margin-top: 0;
+	flex: 1.75;
+	margin-bottom: 0;
+	font-size: 48px;
+	font-weight: 800;
+	color: #F9FAF8;
+}
+
+.subtituloEncabezado{
+	flex: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.botonEncabezado{
+	flex: 0.25;
+	width: 150px;
+	border-radius: 12px;
+	border: none;
+	background-color: #3882F6;
+	color: #E5E7EB;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.imagenDelGatitoEncabezado{
+
+	widht: 50%;
+	height: 250px;
+	flex: 1;
+}
+
+.sectorMedioDeLaPagina{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 2.5%;
+	padding-top: 2.	5%;
+	}
+
+.tituloRandomInformation{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 800;
+	color: #1F2937;
+	padding-bottom: 2.5%;
+	padding-top: 2.5%;
+}
+
+.cuatroImagenesEnFilaConSubtextos{
+	display: flex;
+	justify-content: space-around;
+}
+
+.imagen1DeSectorMedio, .imagen2DeSectorMedio, .imagen3DeSectorMedio, .imagen4DeSectorMedio{
+
+	width: 200px;
+	height: 200px;
+	border: solid 5px #3882F6;
+	border-radius: 24px;
+
+}
+
+.subTexto1SectorMedio, .subTexto2SectorMedio, .subTexto3SectorMedio, .subTexto4SectorMedio{
+
+	text-align: center;
+	font-size: 18px;
+	margin-top: 2%;
+	width: 200px;
+	color: #322D2C;
+
+}
+
+.sectorCitaInspiracional{
+	display: flex;
+	flex-direction: column;
+	background-color: #E5E7EB;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	
+}
+
+.citaInspiracional{
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: #1F2937;
+	width: 90%;
+	margin-bottom: 0;
+
+}
+
+.creditoDeLaCita{
+	text-align: right;
+	width: 90%;
+	font-size: 26px;
+	font-weight: 600;
+}
