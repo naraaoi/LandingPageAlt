@@ -1,6 +1,9 @@
 *{
 	font-family: Roboto, Helvetica;
-	
+}
+
+body{
+	margin: 0;
 }
 
 a{
@@ -71,7 +74,6 @@ a{
 	display: flex;
 	flex-direction: column;
 	width: 40%;
-	align-items: ;
 	margin-right: 5em;
 }
 
@@ -94,13 +96,16 @@ a{
 
 .botonEncabezado{
 	flex: 0.25;
-	width: 150px;
+	width: 130px;
 	border-radius: 12px;
 	border: none;
 	background-color: #3882F6;
 	color: #E5E7EB;
 	font-size: 18px;
 	font-weight: 600;
+
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .imagenDelGatitoEncabezado{
@@ -114,7 +119,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 2.5%;
-	padding-top: 2.	5%;
+	padding-top: 2.5%;
 	}
 
 .tituloRandomInformation{
@@ -154,8 +159,8 @@ a{
 	display: flex;
 	flex-direction: column;
 	background-color: #E5E7EB;
-	padding-bottom: 5%;
-	padding-top: 5%;
+	padding-bottom: 8%;
+	padding-top: 8%;
 	
 }
 
@@ -174,4 +179,82 @@ a{
 	width: 90%;
 	font-size: 26px;
 	font-weight: 600;
+	color: #1F2937;
+}
+
+.sectorCallToAction{
+
+	display: flex;
+	background-color: #3882F6;
+	border-radius: 12px;
+	justify-content: center; 
+
+
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+
+}
+
+.tituloYSubtituloCallToAction{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 700px;
+}
+
+.llamadoALaAccionTexto{
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+	color: #F9FAF8;
+
+	padding-right: 100px;
+
+}
+
+.llamadoALaAccionSubtitulo{
+
+	margin-top: 0;
+	font-size: 12px;
+	font-weight: 200;
+	font-style: italic;
+	color: #F9FAF8;
+
+}
+
+.botonLlamadoALaAccion{
+
+	border: solid #F9FAF8 2px;
+	border-radius: 12px;
+
+	color: #F9FAF8;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 800;
+
+	background-color: #3882F6;
+	
+	width: 120px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+
+.pieDePagina{
+
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+.copyrightPieDePagina{
+
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	color: #E5E7EB;
+
 }
