@@ -1,0 +1,61 @@
+*{
+	font-family: Roboto, Helvetica;
+}
+
+a{
+	text-decoration: none;
+	color: #E5E7EB;
+}
+
+
+.contenedorEncabezado, .pieDePagina{
+	background-color: #1F2937;
+	padding-left: 7em;
+	padding-right: 7em;
+}
+
+.logoYLinksDelEncabezado{
+	display: flex;
+}
+
+.logoEncabezado{
+	
+	font-size: 24px;
+	color: #F9FAF8;
+	padding: 2em 2em;
+	border: 0;
+	margin:0;
+	
+}
+
+.linksDelEncabezado{
+
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+
+	padding: 2em 2em;
+	border: 0;
+	
+}
+
+.primerLinkEncabezado, .segundoLinkEncabezado, .tercerLinkEncabezado{
+
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+
+}
+
+.subtituloEncabezado, .primerLinkEncabezado, .segundoLinkEncabezado, .tercerLinkEncabezado{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.tituloSubtituloEImagenPrincipal{
+	display: flex;
+	padding: 2em 2em;
+}
+
+.tituloSubtituloYBoton{
+	display: flex;
+	flex-direction: column;
