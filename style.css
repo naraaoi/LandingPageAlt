@@ -66,8 +66,8 @@ a{
 
 .tituloSubtituloEImagenPrincipal{
 	display: flex;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 7.5%;
+	padding-bottom: 7.5%;
 }
 
 .tituloSubtituloYBoton{
@@ -80,7 +80,7 @@ a{
 .tituloPrincipalEncabezado{
 	
 	margin-top: 0;
-	flex: 1.75;
+	flex: 1.25;
 	margin-bottom: 0;
 	font-size: 48px;
 	font-weight: 800;
@@ -88,7 +88,7 @@ a{
 }
 
 .subtituloEncabezado{
-	flex: 1;
+	flex: 1.50;
 	margin-top: 0;
 	margin-bottom: 0;
 
@@ -187,11 +187,13 @@ a{
 	display: flex;
 	background-color: #3882F6;
 	border-radius: 12px;
-	justify-content: center; 
+	justify-content: center;
+	justify-items: center;
 
 
-	margin-right: 300px;
-	margin-left: 300px;
+
+	margin-right: 250px;
+	margin-left: 250px;
 	margin-top: 5%;
 	margin-bottom: 5%;
 
@@ -207,9 +209,9 @@ a{
 
 .llamadoALaAccionTexto{
 	margin-bottom: 0;
+	margin-top: 26px;
 	font-size: 18px;
 	font-weight: 600;
-	font-style: italic;
 	color: #F9FAF8;
 
 	padding-right: 100px;
@@ -218,10 +220,10 @@ a{
 
 .llamadoALaAccionSubtitulo{
 
-	margin-top: 0;
-	font-size: 12px;
-	font-weight: 200;
-	font-style: italic;
+	margin-top: 5px;
+
+	font-size: 16px;
+	font-weight: 400;
 	color: #F9FAF8;
 
 }
