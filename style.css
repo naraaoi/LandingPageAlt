@@ -11,7 +11,7 @@ a{
 	color: #E5E7EB;
 }
 
-.contenedorEncabezado, .sectorMedioDeLaPagina, .sectorCitaInspiracional, .sectorCallToAction, .pieDepagina{
+.contenedorEncabezado, .sectorConCuatroMichis, .sectorCitaInspiracional, .sectorCallToAction, .pieDepagina{
 	padding-left: 10%;
 	padding-right: 10%;
 }
@@ -115,14 +115,14 @@ a{
 	flex: 1;
 }
 
-.sectorMedioDeLaPagina{
+.sectorConCuatroMichis{
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 2.5%;
 	padding-top: 2.5%;
 	}
 
-.tituloRandomInformation{
+.tituloSectorCuatroMichis{
 	text-align: center;
 	font-size: 36px;
 	font-weight: 800;
@@ -131,7 +131,7 @@ a{
 	padding-top: 2.5%;
 }
 
-.cuatroImagenesEnFilaConSubtextos{
+.cuatroImagenesEnFilaConSubtitulos{
 	display: flex;
 	justify-content: space-around;
 }
@@ -145,7 +145,7 @@ a{
 
 }
 
-.subTexto1SectorMedio, .subTexto2SectorMedio, .subTexto3SectorMedio, .subTexto4SectorMedio{
+.subtitulo1SectorMedio, .subtitulo2SectorMedio, .subtitulo3SectorMedio, .subtitulo4SectorMedio{
 
 	text-align: center;
 	font-size: 18px;
